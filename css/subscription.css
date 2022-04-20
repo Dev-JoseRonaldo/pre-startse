@@ -24,82 +24,22 @@ body {
 }
 
 
-header {
-  display: flex;
-  position: fixed;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 75px;
-  background-color: var(--back-header);
-  padding: 0 150px;
-  z-index: 20;
-}
-
-header .content-header {
-  height: 100%;
-  width: 100%;
-  max-width: 1280px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: auto;
-}
-
-header .content-header a {
-  text-decoration: none;
-}
-
-header .content-header a h3 {
-  text-decoration: none;
-  color: var(--text-white);
-  font-size: 20px;
-  font-weight: 400;
-  margin: 0;
-}
-
-
-header .content-header nav ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  gap: 35px;
-  list-style: none;
-  margin: 0;
-}
-
-header .content-header nav ul li a {
-  color: var(--text-white);
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 400;
-  display: flex;
-  align-items: center;
-  transition: 0.2s all;
-}
-
-header .content-header nav ul li a:hover {
-  color: var(--primary-color);
-}
-
 main {
-  margin-top: 75px;
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
 }
 
 #home {
-  height: calc(100vh - 75px);
+  height: 100vh;
   width: 100%;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   gap: 122px;
-  padding: 110px 80px 0 80px;
+
 
   background: no-repeat url(/img/background-inscription.png);
   background-size: cover;
