@@ -213,19 +213,22 @@ main {
 
 /* Winner Projects */
 
-#winner-project-1 h2 {
+
+.winner-project h2 {
   color: var(--primary-color);
   font-size: 36px;
   margin-bottom: 9px;
 }
 
-#winner-project-1 p {
+.winner-project p {
   margin-bottom: 80px;
   font-size: 20px;
 }
 
 
-#winner-project-1 {
+
+.winner-project {
+
   background: no-repeat url(/img/background-category-1.png);
   background-size: cover;
   background-position: bottom;
@@ -234,7 +237,20 @@ main {
   padding: 0 80px 0 80px;
 }
 
-#winner-project-1 .category-1 {
+/* navegation */
+#winners-projects {
+  position: absolute;
+  top: 690px;
+}
+
+#all-projects {
+  position: absolute;
+  top: 2880px;
+}
+
+/*-------*/
+
+.winner-project .category-1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -306,4 +322,19 @@ main {
 .text-description p {
   font-size: 20px;
   font-weight: 400px;
+}
+
+.two {
+  background: no-repeat url(/img/background-home.png);
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  height: 100vh;
+  padding: 0 80px 0 80px;
+}
+
+/* all projects */
+
+.all-projects h2 {
+  margin-bottom: 126px;
 }
