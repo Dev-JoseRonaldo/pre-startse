@@ -10,6 +10,8 @@
   <script src="https://kit.fontawesome.com/8ec406ee8f.js" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="css/subscription.css">
+  <link rel="stylesheet" href="/css/countdown.css">
+
 
 </head>
 
@@ -25,7 +27,9 @@
             StartSe, com o intuito de ajudar iniciantes a se preparar de forma prática para o evento Tech Academy.</p>
         </div>
         <div class="buttons">
-          <a href="#">INSCREVA-SE NA SEGUNDA EDIÇÃO</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSf8FPlkqnZM1ol8LP0v3DwUVWulfhrnq8286tc9R0i8RPYxoQ/viewform"
+            target="_blank">INSCREVA-SE
+            NA SEGUNDA EDIÇÃO</a>
           <a href="#">INSCREVA SUA EQUIPE</a>
         </div>
       </div>
@@ -39,10 +43,53 @@
             alt="Homem jovem, branco, cabelo curto, usando uma camisa branca, de costas para nós, programando em seu computador">
         </div>
 
+        <ul class="countdown">
+          <div class="style-countdown">
+            <div class="circle-1-1"></div>
+            <div class="circle-1-2"></div>
+
+            <div class="circle-2-1"></div>
+            <div class="circle-2-2"></div>
+
+            <div class="circle-3-1"></div>
+            <div class="circle-3-2"></div>
+
+            <div class="days-1 rect"></div>
+            <div class="days-2 rect"></div>
+
+            <div class="hour-1 rect"></div>
+            <div class="hour-2 rect"></div>
+
+            <div class="min-1 rect"></div>
+            <div class="min-2 rect"></div>
+
+            <div class="sec-1 rect"></div>
+            <div class="sec-2 rect"></div>
+          </div>
+
+          <li>
+            <span data-time></span>
+            <div>days</div>
+          </li>
+          <li>
+            <span data-time></span>
+            <div>hours</div>
+          </li>
+          <li>
+            <span data-time></span>
+            <div>min</div>
+          </li>
+          <li>
+            <span data-time></span>
+            <div>sec</div>
+          </li>
+        </ul>
+
       </div>
     </section>
   </main>
 
+  <script type="module" src="./script/script.js"></script>
 </body>
 
 </html>
