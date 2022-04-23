@@ -22,6 +22,10 @@
 body {
   display: flex;
   flex-direction: column;
+  max-width: 1240;
+  background: no-repeat url(/img/background.png);
+  background-size: cover;
+  background-position: top;
 }
 
 header {
@@ -32,7 +36,7 @@ header {
   width: 100%;
   height: 75px;
   background-color: var(--back-header);
-  padding: 0 150px;
+  padding: 0 80px;
   z-index: 20;
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -57,7 +61,7 @@ header .content-header a h3,
 footer h3 {
   text-decoration: none;
   color: var(--primary-color);
-  font-size: 20px;
+  font-size: 1.25rem;
   margin: 0;
 }
 
@@ -75,7 +79,7 @@ header .content-header nav ul {
 header .content-header nav ul li a {
   color: var(--text-white);
   text-decoration: none;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   display: flex;
   align-items: center;
@@ -84,6 +88,10 @@ header .content-header nav ul li a {
 
 header .content-header nav ul li a:hover {
   color: var(--primary-color);
+}
+
+.menu-toggle {
+  display: none;
 }
 
 main {
@@ -96,17 +104,12 @@ main {
 }
 
 #home {
-  height: 100vh;
   width: 100%;
   display: flex;
   align-items: flex-start;
   justify-content: center;
   gap: 133px;
-  padding: 110px 80px 0 80px;
-
-  background: no-repeat url(/img/background-home.png);
-  background-size: cover;
-  background-position: top;
+  padding: 120px 80px 60px 80px;
 }
 
 #home .image {
@@ -144,24 +147,24 @@ main {
 
 #home .text-box .text h1 {
   color: var(--primary-color);
-  font-size: 48px;
+  font-size: 3rem;
 }
 
 #home .text-box .text #subtitle {
-  font-size: 36px;
+  font-size: 2.25rem;
   color: var(--primary-color);
   margin-bottom: 70px;
 }
 
 #home .text-box p {
   margin-bottom: 82px;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 #home .text-box a {
   text-decoration: none;
   color: var(--primary-color);
-  font-size: 14px;
+  font-size: 0.875rem;
   background-color: var(--back-button);
   padding: 21.5px 36px;
   border: 1px solid var(--primary-color);
@@ -218,24 +221,18 @@ main {
 
 .winner-project h2 {
   color: var(--primary-color);
-  font-size: 36px;
+  font-size: 2.25rem;
   margin-bottom: 9px;
 }
 
 .winner-project p {
   margin-bottom: 80px;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
-
-
 .winner-project {
-  background: no-repeat url(/img/background-category-1.png);
-  background-size: cover;
-  background-position: bottom;
   width: 100%;
-  height: 100vh;
-  padding: 0 80px 0 80px;
+  padding: 60px 80px;
 }
 
 /* navegation */
@@ -246,7 +243,17 @@ main {
 
 #all-projects {
   position: absolute;
-  top: 2880px;
+  top: 4346px;
+}
+
+#depoimentos {
+  position: absolute;
+  top: 5110px;
+}
+
+#contato {
+  position: absolute;
+  top: 6000px;
 }
 
 /*-------*/
@@ -320,22 +327,17 @@ main {
 
 .text-description h4 {
   color: var(--primary-color);
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400px;
 }
 
 .text-description p {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400px;
 }
 
 .two {
-  background: no-repeat url(/img/background-home.png);
-  background-size: cover;
-  background-position: top;
   width: 100%;
-  height: 100vh;
-  padding: 0 80px 0 80px;
 }
 
 /* all projects */
@@ -355,6 +357,7 @@ main .slider-group {
   align-items: center;
   justify-content: center;
   padding: 0px 30px;
+  margin-bottom: 25px;
 }
 
 .content-area .content .img-area {
@@ -367,13 +370,12 @@ main .slider-group {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  margin-bottom: 40px;
 }
 
 .content-area .content p {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .owl-dots {
@@ -405,17 +407,52 @@ main .slider-group {
   gap: 10px;
 }
 
+.slider-group .all-projects-contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-group .all-projects-contact .github,
+.slider-group .all-projects-contact .linkedin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  padding: 5px 40px;
+  border: 1px solid var(--primary-color);
+  transition: all 0.2s ease-in-out;
+}
+
+.slider-group .all-projects-contact .github:hover,
+.slider-group .all-projects-contact .linkedin:hover {
+  background-color: var(--back-header);
+  border: 1px solid var(--text-white);
+
+  cursor: pointer;
+}
+
+.slider-group .all-projects-contact .linkedin p {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.slider-group .all-projects-contact .github svg {
+  margin: 0;
+  height: 14px;
+}
+
+
+
+
 /* DEPOIMENTOS */
 
 /*Slider*/
 
 .depoimentos {
   width: 100%;
-  height: 100vh;
-  background: no-repeat url(/img/background-category-1.png);
-  background-size: cover;
-  background-position: bottom;
-  padding: 0 80px;
+  padding: 60px 80px;
 }
 
 .depoimentos h2 {
@@ -464,14 +501,14 @@ main .slider-group {
 }
 
 #slider2 .content-area .content h4 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
   margin-bottom: 20px;
   max-width: 500px;
 }
 
 #slider2 .content-area .content p {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   margin: 0;
   max-width: 500px;
@@ -528,17 +565,13 @@ main .slider-group {
 /* CONTATOS */
 #contatos {
   width: 100%;
-  padding-bottom: 95px;
-  background: no-repeat url(/img/background-home.png);
-  background-size: cover;
-  background-position: top;
+  padding: 60px 0;
 }
 
 #contatos .contact-box {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
 
 #contatos .border-external {
@@ -621,20 +654,20 @@ main .slider-group {
 }
 
 #contatos .border-top-2 h5 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
   margin: 0;
 }
 
 #contatos .border-mid-2 p {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   margin: 0;
 }
 
 #contatos h2 {
   color: var(--primary-color);
-  font-size: 36px;
+  font-size: 2.25rem;
   margin: 0 0 72px 80px;
 }
 
@@ -659,13 +692,13 @@ footer {
 
 footer p {
   color: var(--text-white);
-  font-size: 14px;
+  font-size: 0.875rem;
   margin: 0;
 }
 
 footer .contact-footer p {
   color: var(--primary-color);
-  font-size: 14px;
+  font-size: 0.875rem;
   margin: 0;
   line-height: 15px;
   text-align: center;
@@ -682,7 +715,7 @@ footer .contact-footer ul {
 }
 
 footer .contact-footer li a {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   text-decoration: none;
   color: var(--text-white);
