@@ -438,16 +438,6 @@
     width: 100%;
   }
 
-  .content-area .content {
-    background-color: var(--filter-bg);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 30px;
-    margin-bottom: 25px;
-  }
-
   .content-area .content .img-area {
     width: 500px;
     height: 300px;
@@ -558,7 +548,171 @@
 }
 
 /* - - - - - Mobile Grande - - - -  */
-@media(max-width: 640px) {}
+@media(max-width: 640px) {
+  * {
+    font-size: 12px;
+  }
+
+  /* ----- Menu Toggle ----- */
+
+  .menu-section.on .menu-toggle {
+    top: 14px;
+    right: 60px;
+  }
+
+  header, footer {
+    height: 50px;
+    padding: 0 40px;
+  }
+
+  header .content-header a h3, footer h3 {
+    font-size: 13px;
+  }
+
+  footer {
+    padding: 0 10px;
+    justify-content: space-between;
+  }
+
+  #home {
+    gap: 120px;
+    padding: 0 30px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #home .text-box .text #subtitle {
+    margin-bottom: 360px;
+  }
+
+  #home .text-box p {
+    margin-bottom: 40px;
+  }
+
+  #home .text-box {
+    order: -1;
+    max-width: 450px;
+    text-align: center;
+  }
+
+  .img-box {
+    position: absolute;
+    top: 200px;
+  }
+
+  #home .border-img {
+    top: -12px;
+    left: -10px;
+    height: 315.2px;
+    width: 160px;
+  }
+
+  #home .border-img .top {
+    height: 167.8px;
+    width: 164px;
+  }
+
+  /* Winner Projects*/
+
+  .winner-project {
+    padding: 40px 40px;
+  }
+
+  .text-description h4 {
+    font-size: 22px;
+
+  }
+
+  .winner-project .text-description p {
+    margin-bottom: 15px;
+
+  }
+
+  .winner-project p {
+    margin-bottom: 50px;
+    font-size: 1.25rem;
+  }
+
+  .winner .img-winner,
+  .winner-secundary .winner .img-winner {
+    height: 300px;
+    width: 423px;
+  }
+
+  .winner .border-winner,
+  .winner-secundary .winner .border-winner {
+    width: 103%;
+    height: 316px;
+  }
+
+  .content-area .content .img-area {
+    width: 346px;
+    height: 233px;
+    margin-bottom: 22px;
+  }
+
+  #slider .owl-dots button.owl-dot,
+  #slider2 .owl-dots button.owl-dot {
+    height: 10px;
+    width: 10px;
+    border: 2px solid var(--primary-color);
+    margin: 0 7px;
+
+  }
+
+
+  /* All Projects */
+  .all-projects h2,
+  .depoimentos h2,
+  #contatos h2 {
+    margin-bottom: 50px;
+  }
+
+  /* Depoimentos */
+  #slider2 .content-area .content {
+    height: 214.9px;
+    width: 327.36px;
+    gap: 15.84px;
+    padding: 33.26px 20px;
+  }
+
+  #slider2 .content-area .content .img-area {
+    width: 211.2px;
+    height: 139.92px;
+  }
+
+  #slider2 .box-text {
+    height: 172.6px;
+  }
+
+  #slider2 .box-text {
+    max-width: 160px;
+  }
+
+  #slider2 .content-area .content p {
+    font-size: 9px;
+    font-weight: 400;
+    margin: 0;
+    max-width: 500px;
+  }
+
+  #slider2 .content-area .content h4 {
+    margin-bottom: 5px;
+  }
+
+  .depoimentos-github svg {
+    width: 40px;
+  }
+
+  .depoimentos-github svg:first-child {
+    width: 15px;
+  }
+
+  .depoimentos-linkedin svg {
+    width: 60px;
+  }
+
+}
 
 /* - - - - - Mobile Pequeno - - - - */
 @media(max-width: 470px) {}

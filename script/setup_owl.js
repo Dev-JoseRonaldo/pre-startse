@@ -8,6 +8,7 @@ $('#slider').owlCarousel({
     0: {
       items: 1
     },
+
     800: {
       items: 1
     },
