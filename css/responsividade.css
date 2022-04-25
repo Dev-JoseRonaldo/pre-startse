@@ -56,6 +56,28 @@
   }
 
   /* ----- Menu Toggle ----- */
+
+  /* navegation */
+  #winners-projects {
+    position: absolute;
+    top: 690px;
+  }
+
+  #all-projects {
+    position: absolute;
+    top: 10250px;
+  }
+
+  #depoimentos {
+    position: absolute;
+    top: 10930px;
+  }
+
+  #contato {
+    position: absolute;
+    top: 11620px;
+  }
+
   .menu-toggle .one,
   .menu-toggle .three {
     background-color: var(--primary-color);
@@ -424,6 +446,28 @@
   }
 
   /* ----- Menu Toggle ----- */
+
+  /* navegation */
+  #winners-projects {
+    position: absolute;
+    top: 660px;
+  }
+
+  #all-projects {
+    position: absolute;
+    top: 8220px;
+  }
+
+  #depoimentos {
+    position: absolute;
+    top: 8830px;
+  }
+
+  #contato {
+    position: absolute;
+    top: 9370px;
+  }
+
   .menu-toggle .one,
   .menu-toggle .three {
     height: 2px;
@@ -604,12 +648,14 @@
     justify-content: space-between;
   }
 
+  #contatos h2 {
+    margin: 0;
+    margin-bottom: 60px;
+  }
+
+
 }
 
-#contatos h2 {
-  margin: 0;
-  margin-bottom: 60px;
-}
 
 /* - - - - - Mobile Grande - - - -  */
 @media(max-width: 640px) {
@@ -618,6 +664,27 @@
   }
 
   /* ----- Menu Toggle ----- */
+
+  /* navegation */
+  #winners-projects {
+    position: absolute;
+    top: 680px;
+  }
+
+  #all-projects {
+    position: absolute;
+    top: 7680px;
+  }
+
+  #depoimentos {
+    position: absolute;
+    top: 8140px;
+  }
+
+  #contato {
+    position: absolute;
+    top: 8570px;
+  }
 
   .menu-section.on .menu-toggle {
     top: 14px;
@@ -790,6 +857,27 @@
   }
 
   /* ----- Menu Toggle ----- */
+
+  /* navegation */
+  #winners-projects {
+    position: absolute;
+    top: 660px;
+  }
+
+  #all-projects {
+    position: absolute;
+    top: 5840px;
+  }
+
+  #depoimentos {
+    position: absolute;
+    top: 6220px;
+  }
+
+  #contato {
+    position: absolute;
+    top: 6600px;
+  }
 
   .menu-section.on .menu-toggle {
     top: 14px;
