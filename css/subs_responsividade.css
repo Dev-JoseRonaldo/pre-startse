@@ -102,7 +102,269 @@
 @media(max-width: 800px) {}
 
 /* - - - - - Mobile Grande - - - -  */
-@media(max-width: 640px) {}
+@media(max-width: 590px) {
+
+  #home {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+  }
+
+  #home .text-box {
+    align-items: center;
+  }
+
+  .img-box {
+    position: absolute;
+    top: 305px;
+  }
+
+  .image img {
+    width: 148px;
+  }
+
+  #home .border-img .top {
+    height: 179px;
+    width: 164px;
+  }
+
+  #home .border-img .bot {
+    height: 72.5px;
+    width: 164px;
+  }
+
+  #home .text-box a, #home .text-box a:last-child {
+    font-size: 10px;
+    width: 204px;
+    height: 41.12px;
+  }
+
+  .countdown {
+    gap: 17.6px;
+    padding: 10px 0px 10px 10px;
+  }
+
+  .countdown li span {
+    font-size: 25.6px;
+    letter-spacing: 16px;
+  }
+
+  .style-countdown .rect {
+    top: 5px;
+    width: 24px;
+    height: 38.4px;
+  }
+
+  .days-1 {
+    left: 22.5px;
+  }
+
+  .days-2 {
+    left: 53px;
+  }
+
+  .hour-1 {
+    left: 101px;
+  }
+
+  .hour-2 {
+    left: 131px;
+  }
+
+  .min-1 {
+    left: 180px;
+  }
+
+  .min-2 {
+    left: 208px;
+  }
+
+  .sec-1 {
+    left: 256px;
+  }
+
+  .sec-2 {
+    left: 287px;
+  }
+
+  .circle-1-1,
+  .circle-1-2,
+  .circle-2-1,
+  .circle-2-2,
+  .circle-3-1,
+  .circle-3-2 {
+
+    width: 4.8px;
+    height: 4.8px;
+
+  }
+
+  .circle-1-1 {
+    top: 16px;
+    left: 87px;
+  }
+
+  .circle-1-2 {
+    top: 26px;
+    left: 87px;
+  }
+
+  .circle-2-1 {
+    top: 16px;
+    left: 165px;
+  }
+
+  .circle-2-2 {
+    top: 26px;
+    left: 165px;
+  }
+
+  .circle-3-1 {
+    top: 16px;
+    left: 242px;
+  }
+
+  .circle-3-2 {
+    top: 26px;
+    left: 242px;
+  }
+}
 
 /* - - - - - Mobile Pequeno - - - - */
-@media(max-width: 470px) {}
+@media(max-width: 470px) {
+  #home .border-img {
+    width: 175px;
+  }
+
+  #home .text-box .text h1 {
+    font-size: 36px;
+  }
+
+  #home .text-box .text #subtitle {
+    font-size: 24px;
+  }
+
+  #home .text-box p {
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
+
+
+
+  .img-box {
+    position: absolute;
+    top: 245px;
+  }
+
+  #home .text-box {
+    gap: 370px;
+    align-items: center;
+  }
+
+  #home .text-box .buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .countdown {
+    gap: 14px;
+  }
+
+  .countdown li span {
+    font-size: 20.48px;
+    letter-spacing: 12.8px;
+  }
+
+  .countdown li div {
+    margin-right: 16px;
+    font-size: 9.6px;
+  }
+
+  .style-countdown .rect {
+    top: 6px;
+    width: 19.2px;
+    height: 30.72px;
+  }
+
+  .days-1 {
+    left: 20.5px;
+  }
+
+  .days-2 {
+    left: 45px;
+  }
+
+  .hour-1 {
+    left: 82px;
+  }
+
+  .hour-2 {
+    left: 107px;
+  }
+
+  .min-1 {
+    left: 144.5px;
+  }
+
+  .min-2 {
+    left: 169px;
+  }
+
+  .sec-1 {
+    left: 207px;
+  }
+
+  .sec-2 {
+    left: 232px;
+  }
+
+  .circle-1-1,
+  .circle-1-2,
+  .circle-2-1,
+  .circle-2-2,
+  .circle-3-1,
+  .circle-3-2 {
+
+    width: 3.8px;
+    height: 3.8px;
+
+  }
+
+  .circle-1-1 {
+    top: 16px;
+    left: 71px;
+  }
+
+  .circle-1-2 {
+    top: 24px;
+    left: 71px;
+  }
+
+  .circle-2-1 {
+    top: 16px;
+    left: 133px;
+  }
+
+  .circle-2-2 {
+    top: 24px;
+    left: 133px;
+  }
+
+  .circle-3-1 {
+    top: 16px;
+    left: 196px;
+  }
+
+  .circle-3-2 {
+    top: 24px;
+    left: 196px;
+  }
+
+  #home .text-box a, #home .text-box a:last-child {
+    font-size: 12px;
+    width: 254px;
+    height: 47px;
+  }
+}
