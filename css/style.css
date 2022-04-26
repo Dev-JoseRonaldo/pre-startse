@@ -403,6 +403,7 @@ main .slider-group {
 
 .slider-group .all-projects-contact .github,
 .slider-group .all-projects-contact .linkedin {
+  text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;

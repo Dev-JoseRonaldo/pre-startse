@@ -31,6 +31,8 @@ export default class Countdown {
       this.minutes % 60 < 10 ? "0" + (this.minutes % 60) : this.minutes % 60;
     const seconds =
       this.seconds % 60 < 10 ? "0" + (this.seconds % 60) : this.seconds % 60;
+
     return [days, hours, minutes, seconds];
   }
 }
+
