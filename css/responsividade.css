@@ -770,6 +770,7 @@
     font-weight: 400;
     margin: 0;
     max-width: 500px;
+    max-height: 120px;
   }
 
   #slider2 .content-area .content h4 {
@@ -939,6 +940,7 @@
 
   #slider2 .content-area .content p {
     font-size: 7.5px;
+    max-height: 115px;
   }
 
   #slider .owl-dots button.owl-dot, #slider2 .owl-dots button.owl-dot {
