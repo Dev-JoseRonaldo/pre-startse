@@ -16,13 +16,20 @@
     width: 255px;
     height: 51.4px;
   }
+
+  .img-box h3 {
+    margin-top: 20px;
+  }
 }
 
 @media(max-width: 1224px) {
+  .img-box h3 {
+    margin-top: 5px;
+  }
 
   .img-box {
     position: absolute;
-    top: 260px;
+    top: 243px;
   }
 
   .countdown {
@@ -30,7 +37,7 @@
   }
 
   #home .text-box {
-    gap: 400px;
+    gap: 430px;
     height: 100vh;
   }
 
@@ -65,7 +72,7 @@
     position: absolute;
     top: -15px;
     left: -8px;
-    height: 394px;
+    height: 262px;
     width: 252px;
   }
 
@@ -174,15 +181,15 @@
   }
 
   .min-1 {
-    left: 180px;
+    left: 179px;
   }
 
   .min-2 {
-    left: 208px;
+    left: 209px;
   }
 
   .sec-1 {
-    left: 256px;
+    left: 257px;
   }
 
   .sec-2 {
@@ -229,6 +236,10 @@
   .circle-3-2 {
     top: 26px;
     left: 242px;
+  }
+
+  .img-box h3 {
+    font-size: 16px;
   }
 }
 
@@ -281,17 +292,17 @@
   }
 
   .style-countdown .rect {
-    top: 6px;
+    top: 5px;
     width: 19.2px;
     height: 30.72px;
   }
 
   .days-1 {
-    left: 20.5px;
+    left: 20px;
   }
 
   .days-2 {
-    left: 45px;
+    left: 44px;
   }
 
   .hour-1 {
@@ -299,11 +310,11 @@
   }
 
   .hour-2 {
-    left: 107px;
+    left: 106px;
   }
 
   .min-1 {
-    left: 144.5px;
+    left: 145px;
   }
 
   .min-2 {
@@ -362,5 +373,9 @@
     font-size: 12px;
     width: 254px;
     height: 47px;
+  }
+
+  .img-box h3 {
+    font-size: 12px;
   }
 }
