@@ -116,16 +116,19 @@ main {
   transition: 0.3s all;
 }
 
+
 #home .text-box a:last-child {
   padding: 17px 67px;
 }
 
+/*
 #home .text-box a:hover {
   color: var(--back-button);
   font-weight: 700;
   background-color: var(--primary-color);
 }
 
+*/
 .img-box {
   display: flex;
   flex-direction: column;
