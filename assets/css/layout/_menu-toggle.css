@@ -1,0 +1,156 @@
+.menu-toggle {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  nav {
+    display: none;
+  }
+
+  /* ----- Menu Toggle ----- */
+
+  .menu-toggle .one,
+  .menu-toggle .three {
+    background-color: var(--primary-color);
+    height: 3px;
+    width: 100%;
+    transition: 0.3s;
+    border-radius: 1px;
+  }
+
+  .menu-toggle .three {
+    width: 70%;
+    margin-top: 5px;
+  }
+
+  .menu-toggle:hover .one,
+  .menu-toggle:hover .three {
+    background-color: var(--text-white);
+  }
+
+  .menu-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .menu-section.on {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+    z-index: 40;
+
+    background: no-repeat url(/assets/img/background-home.png);
+    background-size: cover;
+    background-position: top;
+  }
+
+  .menu-section.on nav {
+    display: block;
+  }
+
+  .menu-section.on .menu-toggle {
+    position: absolute;
+    top: 22px;
+    right: 98px;
+  }
+
+  .menu-section.on .menu-toggle .one {
+    width: 80%;
+    transform: rotate(45deg) translate(1px, 0px);
+  }
+
+  .menu-section.on .menu-toggle .three {
+    width: 80%;
+    transform: rotate(-45deg) translate(6px, -5px);
+  }
+
+  .menu-section.on nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header .content-header nav ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    color: var(--primary-color);
+    background-color: var(--back-header);
+    border: 2px solid var(--primary-color);
+
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.75);
+
+    font-size: 28px;
+    width: min(500px, 80vw);
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    transition: 0.2s all;
+  }
+
+  header .content-header nav ul li a:hover {
+    color: var(--back-header);
+    background-color: var(--primary-color);
+  }
+}
+
+/* - - - - - Tablet - - - - - - - - */
+@media (max-width: 800px) {
+  /* ----- Menu Toggle ----- */
+
+  .menu-toggle .one,
+  .menu-toggle .three {
+    height: 2px;
+  }
+
+  .menu-toggle {
+    width: 30px;
+    height: 20px;
+  }
+
+  .menu-section.on .menu-toggle .one {
+    width: 80%;
+    transform: rotate(45deg) translate(1px, 0px);
+  }
+
+  .menu-section.on .menu-toggle .three {
+    width: 80%;
+    transform: rotate(-45deg) translate(5px, -4px);
+  }
+
+  .menu-section.on .menu-toggle {
+    top: 27px;
+    right: 57px;
+  }
+}
+
+/* - - - - - Mobile Grande - - - -  */
+@media (max-width: 640px) {
+  /* ----- Menu Toggle ----- */
+  .menu-section.on .menu-toggle {
+    top: 14px;
+    right: 60px;
+  }
+}
+
+/* - - - - - Mobile Pequeno - - - - */
+@media (max-width: 470px) {
+  /* ----- Menu Toggle ----- */
+
+  .menu-section.on .menu-toggle {
+    top: 14px;
+    right: 29px;
+  }
+}

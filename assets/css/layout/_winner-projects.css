@@ -1,0 +1,278 @@
+.winner-project h2 {
+  color: var(--primary-color);
+  font-size: 2.25rem;
+  margin-bottom: 9px;
+}
+
+.winner-project p {
+  margin-bottom: 80px;
+  font-size: 1.25rem;
+}
+
+.winner-project {
+  width: 100%;
+  padding: 60px 80px;
+}
+
+/*-------*/
+
+.winner-project .category-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 29px;
+}
+
+.img-winner a {
+  z-index: 20;
+}
+
+/*winner primary*/
+
+.winner {
+  position: relative;
+}
+
+.winner .img-winner {
+  height: 313px;
+  width: 426px;
+}
+
+.img-winner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.winner .border-winner {
+  top: -10px;
+  left: -6px;
+  position: absolute;
+  border: 3px solid var(--primary-color);
+  width: 438px;
+  height: 332px;
+}
+
+/*winner secundary*/
+.winner-secundary .winner {
+  position: relative;
+}
+
+.winner-secundary .winner .img-winner {
+  width: 360px;
+  height: 265px;
+}
+
+.img-winner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.winner-secundary .winner .border-winner {
+  top: -8px;
+  left: -5px;
+  position: absolute;
+  border: 3px solid var(--primary-color);
+  width: 371px;
+  height: 281px;
+}
+
+.text-description {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.text-description h4 {
+  color: var(--primary-color);
+  font-size: 2.25rem;
+  font-weight: 400px;
+}
+
+.text-description p {
+  font-size: 1.25rem;
+  font-weight: 400px;
+}
+
+.two {
+  width: 100%;
+}
+
+/* - - - - - Portátil L - - - - - - */
+@media (max-width: 1300px) {
+  .winner-project .category-1 {
+    flex-wrap: wrap;
+    gap: 29px;
+  }
+
+  /*winner primary*/
+
+  .winner-1 {
+    order: -1;
+    position: relative;
+  }
+
+  .winner .img-winner {
+    height: 413px;
+    width: 729px;
+  }
+
+  .winner .border-winner {
+    width: 742px;
+    height: 431px;
+  }
+
+  .winner-secundary .winner .img-winner {
+    width: 462px;
+    height: 287px;
+  }
+
+  .winner-secundary .winner .border-winner {
+    width: 474px;
+    height: 302px;
+  }
+
+  .winner-project p {
+    margin-bottom: 40px;
+  }
+}
+
+/* - - - - - Portátil - - - - - - - */
+@media (max-width: 1024px) {
+  /* Winner Projects*/
+  .winner-project .category-1 {
+    flex-wrap: wrap;
+  }
+
+  .winner-project .category-1 .winner-1 {
+    order: -1;
+  }
+
+  .winner-project h2 {
+    color: var(--primary-color);
+    font-size: 2.25rem;
+  }
+
+  .winner-project p {
+    margin-bottom: 72px;
+    font-size: 1.25rem;
+  }
+
+  .winner-project .text-description p {
+    margin-bottom: 40px;
+    font-size: 1.25rem;
+  }
+
+  .winner .img-winner,
+  .winner-secundary .winner .img-winner {
+    height: 407px;
+    width: 554px;
+  }
+
+  .winner .border-winner,
+  .winner-secundary .winner .border-winner {
+    width: 569px;
+    height: 431px;
+  }
+}
+
+/* - - - - - Tablet - - - - - - - - */
+@media (max-width: 800px) {
+  /* Winner Projects*/
+  .winner-project {
+    width: 100%;
+    padding: 30px 40px;
+  }
+
+  .winner-project.padding {
+    padding-top: 30px;
+  }
+
+  .winner .img-winner,
+  .winner-secundary .winner .img-winner {
+    height: 300px;
+    width: 500px;
+  }
+
+  .winner .border-winner,
+  .winner-secundary .winner .border-winner {
+    width: 102%;
+    height: 316px;
+  }
+}
+
+/* - - - - - Mobile Grande - - - -  */
+@media (max-width: 640px) {
+  /* Winner Projects*/
+  .winner-project {
+    padding: 30px 40px;
+  }
+
+  .winner-project.padding {
+    padding-top: 30px;
+  }
+
+  .text-description h4 {
+    font-size: 22px;
+  }
+
+  .winner-project .text-description p {
+    margin-bottom: 15px;
+  }
+
+  .winner-project p {
+    margin-bottom: 50px;
+    font-size: 1.25rem;
+  }
+
+  .winner .img-winner,
+  .winner-secundary .winner .img-winner {
+    height: 300px;
+    width: 423px;
+  }
+
+  .winner .border-winner,
+  .winner-secundary .winner .border-winner {
+    width: 103%;
+    height: 316px;
+  }
+}
+
+/* - - - - - Mobile Pequeno - - - - */
+@media (max-width: 470px) {
+  /* Winner Projects*/
+  .winner-project {
+    padding: 30px 10px;
+  }
+
+  .winner-project.padding {
+    padding: 0 10px 30px 10px;
+  }
+
+  .text-description h4 {
+    font-size: 20px;
+  }
+
+  .winner-project p {
+    margin-bottom: 50px;
+    font-size: 1.25rem;
+  }
+
+  .winner .img-winner,
+  .winner-secundary .winner .img-winner {
+    height: 192px;
+    width: 277px;
+  }
+
+  .winner .border-winner,
+  .winner-secundary .winner .border-winner {
+    width: 103%;
+    height: 208px;
+  }
+
+  .content-area .content .img-area {
+    width: 346px;
+    height: 233px;
+    margin-bottom: 22px;
+  }
+}

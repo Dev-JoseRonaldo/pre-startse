@@ -1,0 +1,248 @@
+/* DEPOIMENTOS */
+
+/*Slider*/
+
+.depoimentos {
+  width: 100%;
+  padding: 60px 80px;
+}
+
+.depoimentos h2 {
+  margin-bottom: 80px;
+}
+
+main .slider-group {
+  width: 100%;
+}
+
+#slider2 .content-area {
+  max-width: 700px;
+}
+
+#slider2 .content-area .content {
+  background-color: var(--filter-bg);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 63px;
+  border: 2px solid var(--primary-color);
+}
+
+.owl-carousel .owl-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#slider2 .content-area .content .img-area {
+  height: 332px;
+  border: 2px solid var(--primary-color);
+  margin: 0;
+  background-color: black;
+}
+
+#slider2 .content-area .content .img-area img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0;
+}
+
+#slider2 .content-area .content h4 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  max-width: 500px;
+}
+
+#slider2 .content-area .content p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin: 0;
+  max-height: 252px;
+  max-width: 500px;
+  overflow: hidden;
+}
+
+#slider2 .owl-dots {
+  text-align: center;
+}
+
+#slider2 .owl-dots button.owl-dot {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border: 2px solid var(--primary-color);
+  margin: 0 10px;
+  border-radius: 50%;
+}
+
+#slider2 .owl-dots .owl-dot.active {
+  border: none;
+  background-color: var(--primary-color);
+}
+
+#slider2 .conteiner + img {
+  width: 100px;
+}
+
+#slider2 .title-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#slider2 .box-text {
+  height: 328px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#slider2 .depoimentos-contact {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+}
+
+#slider2 .depoimentos-contact a {
+  text-decoration: none;
+}
+
+#slider2 .container {
+  margin: 0;
+}
+
+/* - - - - - Portátil - - - - - - - */
+@media (max-width: 1024px) {
+  /* Depoimentos */
+  .depoimentos {
+    width: 100%;
+    padding: 60px 80px;
+  }
+
+  #slider2 .content-area .content {
+    height: 407px;
+    width: 600px;
+    gap: 30px;
+    padding: 63px;
+  }
+
+  #slider2 .content-area .content .img-area {
+    width: 400px;
+    height: 265px;
+  }
+}
+/* - - - - - Tablet - - - - - - - - */
+@media (max-width: 800px) {
+  /* Depoimentos */
+  .depoimentos {
+    width: 100%;
+    padding: 60px 40px 0 40px;
+  }
+
+  #slider2 .content-area .content {
+    height: 325.6px;
+    width: 496px;
+    gap: 24px;
+    padding: 50.4px;
+  }
+
+  #slider2 .content-area .content .img-area {
+    width: 320px;
+    height: 212px;
+  }
+
+  #slider2 .box-text {
+    height: 258px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+/* - - - - - Mobile Grande - - - -  */
+@media (max-width: 640px) {
+  /* Depoimentos */
+  #slider2 .content-area .content {
+    height: 214.9px;
+    width: 327.36px;
+    gap: 15.84px;
+    padding: 33.26px 20px;
+  }
+
+  #slider2 .content-area .content .img-area {
+    width: 211.2px;
+    height: 139.92px;
+  }
+
+  #slider2 .box-text {
+    height: 172.6px;
+  }
+
+  #slider2 .box-text {
+    max-width: 150px;
+    min-width: 117px;
+  }
+
+  #slider2 .content-area .content p {
+    font-size: 9px;
+    font-weight: 400;
+    margin: 0;
+    max-width: 500px;
+    max-height: 120px;
+  }
+
+  #slider2 .content-area .content h4 {
+    margin-bottom: 5px;
+  }
+
+  .depoimentos-github svg {
+    width: 40px;
+  }
+
+  .depoimentos-github svg:first-child {
+    width: 15px;
+  }
+
+  .depoimentos-linkedin svg {
+    width: 60px;
+  }
+}
+
+/* - - - - - Mobile Pequeno - - - - */
+@media (max-width: 470px) {
+  /* Depoimentos */
+  #slider2 .content-area .content {
+    height: 214.9px;
+    width: 261.36px;
+    gap: 15.84px;
+    padding: 33.26px 15px;
+  }
+
+  #slider2 .content-area .content .img-area {
+    width: 428.2px;
+    height: 139.92px;
+  }
+
+  #slider2 .content-area .content p {
+    font-size: 7.5px;
+    max-height: 115px;
+  }
+
+  .depoimentos-linkedin svg {
+    width: 48px;
+  }
+
+  .depoimentos-github svg {
+    width: 30px;
+  }
+
+  .depoimentos-github svg:first-child {
+    width: 10px;
+  }
+}

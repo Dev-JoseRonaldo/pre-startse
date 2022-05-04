@@ -41,7 +41,7 @@ main {
   justify-content: center;
   gap: 122px;
 
-  background: no-repeat url(/img/background-inscription.png);
+  background: no-repeat url(/assets/img/background-inscription.png);
   background-size: cover;
   background-position: bottom;
 }
@@ -121,14 +121,15 @@ main {
   padding: 17px 67px;
 }
 
-/*
+
 #home .text-box a:hover {
   color: var(--back-button);
   font-weight: 700;
   background-color: var(--primary-color);
+  cursor: not-allowed;
 }
 
-*/
+
 .img-box {
   display: flex;
   flex-direction: column;

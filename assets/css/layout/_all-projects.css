@@ -1,0 +1,171 @@
+.all-projects h2 {
+  margin-bottom: 80px;
+}
+
+main .slider-group {
+  width: 100%;
+}
+
+.content-area .content {
+  background-color: var(--filter-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 30px;
+  margin-bottom: 25px;
+}
+
+.content-area .content .img-area {
+  width: 600px;
+  height: 350px;
+  margin-bottom: 22px;
+}
+
+#slider .content-area .content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content-area .content p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.owl-dots {
+  text-align: center;
+}
+
+#slider .owl-dots button.owl-dot {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border: 2px solid var(--primary-color);
+  margin: 0 10px;
+  border-radius: 50%;
+}
+
+#slider .owl-dots .owl-dot.active {
+  border: none;
+  background-color: var(--primary-color);
+}
+
+.conteiner + img {
+  width: 100px;
+}
+
+.title-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.slider-group .all-projects-contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-group .all-projects-contact .github,
+.slider-group .all-projects-contact .linkedin {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  padding: 5px 40px;
+  border: 1px solid var(--primary-color);
+  transition: all 0.2s ease-in-out;
+}
+
+.slider-group .all-projects-contact .github:hover,
+.slider-group .all-projects-contact .linkedin:hover {
+  background-color: var(--back-header);
+  border: 1px solid var(--text-white);
+
+  cursor: pointer;
+}
+
+.slider-group .all-projects-contact .linkedin p {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.slider-group .all-projects-contact .github svg {
+  margin: 0;
+  height: 14px;
+}
+
+/* - - - - - Portátil - - - - - - - */
+@media (max-width: 1024px) {
+  .slider-group .all-projects-contact .github,
+  .slider-group .all-projects-contact .linkedin {
+    height: 28px;
+    padding: 5px 40px;
+  }
+
+  .slider-group .all-projects-contact .github svg {
+    margin: 0;
+    height: 11.2px;
+  }
+}
+
+/* - - - - - Tablet - - - - - - - - */
+@media (max-width: 800px) {
+  .slider-group .all-projects-contact .github,
+  .slider-group .all-projects-contact .linkedin {
+    height: 28px;
+    padding: 5px 40px;
+  }
+
+  .slider-group .all-projects-contact .github svg {
+    margin: 0;
+    width: 30px;
+  }
+
+  .all-projects h2 {
+    margin-bottom: 80px;
+  }
+
+  main .slider-group {
+    width: 100%;
+  }
+
+  .content-area .content .img-area {
+    width: 500px;
+    height: 300px;
+    margin-bottom: 22px;
+  }
+
+  #slider .content-area .content img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* - - - - - Mobile Grande - - - -  */
+@media (max-width: 640px) {
+  .content-area .content .img-area {
+    width: 346px;
+    height: 233px;
+    margin-bottom: 22px;
+  }
+}
+
+/* - - - - - Mobile Pequeno - - - - */
+@media (max-width: 470px) {
+  .content-area .content .img-area {
+    width: 266px;
+    height: 182px;
+  }
+
+  .slider-group .all-projects-contact .github,
+  .slider-group .all-projects-contact .linkedin {
+    height: 24px;
+    padding: 5px 26px;
+  }
+}
