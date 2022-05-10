@@ -40,7 +40,6 @@ main .slider-group {
   height: 332px;
   border: 2px solid var(--primary-color);
   margin: 0;
-  background-color: black;
 }
 
 #slider2 .content-area .content .img-area img {
@@ -212,6 +211,10 @@ main .slider-group {
   .depoimentos-linkedin svg {
     width: 60px;
   }
+
+  #slider2 .owl-dots button.owl-dot {
+    margin: 0 6px;
+  }
 }
 
 /* - - - - - Mobile Pequeno - - - - */
@@ -244,5 +247,15 @@ main .slider-group {
 
   .depoimentos-github svg:first-child {
     width: 10px;
+  }
+
+  #slider2 .owl-dots button.owl-dot {
+    height: 8px;
+    width: 8px;
+    margin: 0 3px;
+  }
+
+  .depoimentos {
+    padding: 60px 10px 0 10px;
   }
 }

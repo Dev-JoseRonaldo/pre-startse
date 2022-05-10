@@ -148,7 +148,10 @@
 /* - - - - - Mobile Pequeno - - - - */
 @media (max-width: 470px) {
   /* ----- Menu Toggle ----- */
-
+  header .content-header nav ul li a {
+    padding: 10px 0;
+    font-size: 18px;
+  }
   .menu-section.on .menu-toggle {
     top: 14px;
     right: 29px;

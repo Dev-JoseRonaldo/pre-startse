@@ -259,7 +259,7 @@
 @media (max-width: 640px) {
   #home {
     gap: 120px;
-    padding: 0 30px;
+    padding: 15px 30px;
     flex-direction: column;
     justify-content: space-between;
   }
@@ -300,7 +300,7 @@
 @media (max-width: 470px) {
   #home {
     gap: 120px;
-    padding: 0 10px;
+    padding: 15px 10px;
     flex-direction: column;
     justify-content: space-between;
   }

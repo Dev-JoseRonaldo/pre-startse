@@ -66,6 +66,10 @@ header .content-header nav ul li a:hover {
 }
 /* - - - - - Mobile Pequeno - - - - */
 @media (max-width: 470px) {
+  header {
+    padding: 10px 15px;
+  }
+
   header .content-header nav ul li a {
     padding: 10px 0;
     font-size: 18px;
