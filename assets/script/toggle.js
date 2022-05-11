@@ -14,6 +14,7 @@ menuToggle.addEventListener('click', () => {
   show = !show
 })
 
+/*
 for (let i = 0; i < buttonsToggle.length; i++) {
   if (show) {
     buttonsToggle[i].addEventListener('click', () => {
@@ -23,3 +24,4 @@ for (let i = 0; i < buttonsToggle.length; i++) {
     })
   }
 }
+*/
