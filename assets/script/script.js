@@ -1,6 +1,8 @@
 import Countdown from './countdown.js'
 
-const tempoFuturo = new Countdown('30 may 2022 19:00:00 GMT-0300')
+var dia = 7
+
+const tempoFuturo = new Countdown(`7 july 2022 00:53:00 GMT-0300`)
 const tempos = document.querySelectorAll('[data-time]')
 
 const relogio = document.querySelector('.countdown')
