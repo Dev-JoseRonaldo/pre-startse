@@ -9,19 +9,14 @@ const buttonsToggle = document.querySelectorAll(
 
 menuToggle.addEventListener('click', () => {
   document.body.style.overflow = show ? 'hidden' : 'initial'
-
   menuSection.classList.toggle('on', show)
   show = !show
 })
 
-/*
 for (let i = 0; i < buttonsToggle.length; i++) {
-  if (show) {
-    buttonsToggle[i].addEventListener('click', () => {
-      document.body.style.overflow = show ? 'hidden' : 'initial'
-
-      menuSection.classList.toggle('on', show)
-    })
-  }
+  buttonsToggle[i].addEventListener('click', () => {
+    document.body.style.overflow = 'initial'
+    menuSection.classList.toggle('on', show)
+    show = !show
+  })
 }
-*/
